@@ -1,0 +1,6 @@
+{
+  "name": "@peassoft/linter",
+  "version": "0.0.0",
+  "description": "TypeScript linter for PeasSoft projects",
+  "type": "module"
+}
