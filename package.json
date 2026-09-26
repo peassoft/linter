@@ -1,6 +1,37 @@
 {
   "name": "@peassoft/linter",
-  "version": "0.0.0",
-  "description": "TypeScript linter for PeasSoft projects",
-  "type": "module"
+  "version": "1.0.0",
+  "description": "Oxlint config for PeasSoft projects",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "Alexey Gorokhov",
+    "email": "alexey.gorokhov@icloud.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/peassoft/linter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peassoft/linter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peassoft/linter/issues"
+  },
+  "scripts": {
+    "test": "npm run tsc",
+    "tsc": "tsc --noEmit",
+    "build": "del-cli dist && tsc -p tsconfig-build.json"
+  },
+  "dependencies": {
+    "@stylistic/eslint-plugin": "~5.10",
+    "oxlint": "~1.85",
+    "oxlint-tsgolint": "^7.0.2002"
+  },
+  "devDependencies": {
+    "del-cli": "^7.0.0",
+    "typescript": "^7.0.2"
+  }
 }
