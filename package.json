@@ -1,6 +1,6 @@
 {
   "name": "@peassoft/linter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Oxlint config for PeasSoft projects",
   "type": "module",
   "exports": "./dist/index.js",
