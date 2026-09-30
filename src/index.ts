@@ -96,6 +96,7 @@ export const baseConfig = defineConfig({
     'typescript/no-empty-object-type': 'error',
     'typescript/no-explicit-any': 'error',
     'typescript/no-extraneous-class': 'error',
+    'typescript/no-generated-empty-object-type': 'error',
     'typescript/no-import-type-side-effects': 'error',
     'typescript/no-inferrable-types': 'error',
     'typescript/no-meaningless-void-operator': 'error',

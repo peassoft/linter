@@ -7,12 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2026-09-26
+## [2.0.0] - 2026-09-30
 
-- Initial release.
+## Added
+
+- [BREAKING] Add new rule `typescript/no-generated-empty-object-type`.
 
 ## [1.0.1] - 2026-09-26
 
 ### Fixed
 
 - Build artifacts.
+
+## [1.0.0] - 2026-09-26
+
+- Initial release.
