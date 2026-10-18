@@ -66,6 +66,7 @@ export const baseConfig = defineConfig({
     'no-template-curly-in-string': 'error',
     'no-unneeded-ternary': 'error',
     'no-unreachable-loop': 'error',
+    'no-unused-vars': 'error',
     'no-useless-assignment': 'error',
     'no-useless-call': 'error',
     'no-useless-computed-key': 'error',
