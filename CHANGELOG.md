@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- [BREAKING] Add new rule: `typescript/no-unsafe-enum-assignment`.
+
+### Changed
+
+- Upgrade `oxlint` to v1.90.
+
 ## [3.0.0] - 2026-10-18
 
 ### Changed

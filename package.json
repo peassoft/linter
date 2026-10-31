@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@stylistic/eslint-plugin": "~5.10",
-    "oxlint": "~1.86",
+    "oxlint": "~1.90",
     "oxlint-tsgolint": "^7.0.2002"
   },
   "devDependencies": {
